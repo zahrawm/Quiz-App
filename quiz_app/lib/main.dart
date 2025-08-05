@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:quiz_app/screen/about_screen.dart';
-import 'package:quiz_app/screen/home_scren.dart';
+import 'package:quiz_app/screen/categories.dart';
+import 'package:quiz_app/screen/home_screen.dart';
 import 'package:quiz_app/screen/onboarding_screen.dart';
 import 'package:quiz_app/screen/splash_screen.dart';
 
@@ -26,6 +27,7 @@ class MyApp extends StatelessWidget {
         '/onboard': (_) => const OnboardingScreen(),
         '/about': (_) => const AboutMeScreen(),
         '/home': (_) => const HomeScreen(),
+        '/categories' :(_) =>  Categories()
       },
     );
   }

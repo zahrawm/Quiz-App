@@ -48,7 +48,7 @@ class _AboutMeScreenState extends State<AboutMeScreen> {
             fontWeight: FontWeight.w600,
           ),
         ),
-        centerTitle: true,
+        
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.symmetric(
