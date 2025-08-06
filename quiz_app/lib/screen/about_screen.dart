@@ -42,13 +42,8 @@ class _AboutMeScreenState extends State<AboutMeScreen> {
         ),
         title: Text(
           'About Me',
-          style: TextStyle(
-            color: Colors.black87,
-            fontSize: screenWidth * 0.05,
-            fontWeight: FontWeight.w600,
-          ),
+          style: TextStyle(color: Colors.black87, fontWeight: FontWeight.w600),
         ),
-        
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.symmetric(
